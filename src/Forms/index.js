@@ -15,9 +15,11 @@ function index() {
                     <label htmlFor="password">Password*</label>
                     <input type="password" id="password"  />
                     <label htmlFor="otp">Verify OTP*</label>
-                    <input type="password" id="otp" maxLength="6"/>
+                    <input type="number" id="otp" maxLength="6"/>
+                    <span id="button">
+                        <input className="button2" type="submit" id="sub" value="Submit" />
+                    </span>
                 </div>
-                    <button className="action-button shadow animate blue">Login</button>
             </div>
             <div className="third">
                 {/* <img src={logo} className="back__img1"/> */}

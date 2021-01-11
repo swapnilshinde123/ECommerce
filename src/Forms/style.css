@@ -1,97 +1,128 @@
-.main{
+.main {
     display: flex;
+    flex-wrap: wrap;
+    height: 100%;
     justify-content: space-between;
 }
 
-.back__img{
+.back__img {
     height: 100vh;
     width: 75%;
 }
 
 
-.first{
+.first {
     width: 50%;
+    height: 100%;
 }
 
-.second{
+.second {
     width: 30%;
+    height: 100vh;
 }
 
-.third{
+.third {
     width: 20%;
     transform: rotate(180deg);
 }
 
-.second > h2{
+.second>h2 {
     padding-top: 20px;
-    font-size: 40px;
+    font-size: 7vh;
 }
 
 
-.signup__form{
-    font-size: 25px;
+.signup__form {
+    height: 50vh;
+    /* font-size: 25px; */
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
     width: 84%;
-    line-height: 264%;
     margin-left: -20%;
     margin-bottom: 10%;
 }
 
-.signup__form > label {
+.signup__form>label {
+    font-size: 4vh;
     margin-top: 10px;
 }
 
 
-.signup__form > input {
-    height: 25px;
+.signup__form>input {
+    height: 4vh;
     font-size: 20px;
     border-radius: 8px;
     border: 2px solid black;
 }
 
-.back__img1{
+.back__img1 {
     height: 100vh;
     width: 150%;
 }
 
 
-.blue
-{
+.blue {
+    height: 10.7vh;
     width: 40%;
-	background-color: #3498DB;
-	border-bottom: 5px solid #2980B9;
-	text-shadow: 0px -2px #2980B9;
+    background-color: #41c1ca;
+    border-bottom: 5px solid #41c1ca;
+    text-shadow: 0px -2px #41c1ca;
 }
 
 
-.action-button:active
-{
-	transform: translate(0px,5px);
-    -webkit-transform: translate(0px,5px);
-	border-bottom: 1px solid;
+.action-button:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    border-bottom: 1px solid;
 }
 
 
-.action-button
-{
-	position: relative;
-	padding: 10px 40px;
+.action-button {
+    position: relative;
+    padding: 10px 40px;
     margin: 0px 10px 10px 0px;
     float: left;
-	border-radius: 15px;
-	font-family: 'Pacifico', cursive;
-	font-size: 25px;
-	color: #FFF;
-	text-decoration: none;	
+    border-radius: 15px;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: #FFF;
+    text-decoration: none;
 }
 
 
-input:focus{
+input:focus {
     outline: none;
 }
 
-button:focus{
+button:focus {
     outline: none;
+}
+
+.button2 {
+    width: 8vw;
+    height: 7vh;
+    font-size: 3vh;
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid black;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.button2:hover {
+    color: white;
+    background-color: black;
+}
+
+#button{
+    margin-top: 4vh;
+    margin-left: 25vh;
 }
