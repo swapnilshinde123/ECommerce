@@ -1,0 +1,97 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.back__img{
+    height: 100vh;
+    width: 75%;
+}
+
+
+.first{
+    width: 50%;
+}
+
+.second{
+    width: 30%;
+}
+
+.third{
+    width: 20%;
+    transform: rotate(180deg);
+}
+
+.second > h2{
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+
+.signup__form{
+    font-size: 25px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    width: 84%;
+    line-height: 264%;
+    margin-left: -20%;
+    margin-bottom: 10%;
+}
+
+.signup__form > label {
+    margin-top: 10px;
+}
+
+
+.signup__form > input {
+    height: 25px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.back__img1{
+    height: 100vh;
+    width: 150%;
+}
+
+
+.blue
+{
+    width: 40%;
+	background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+}
+
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+	border-radius: 15px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+
+input:focus{
+    outline: none;
+}
+
+button:focus{
+    outline: none;
+}
