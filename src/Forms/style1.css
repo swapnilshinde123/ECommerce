@@ -22,8 +22,9 @@
 }
 
 .third {
+    height: 5vh;
     width: 20%;
-    transform: rotate(180deg);
+    transform: rotate(0deg);
 }
 
 .second>h2 {
@@ -79,7 +80,7 @@ button {
     /* font-weight: 700; */
     letter-spacing: 1px;
     border: none;
-    font-size: 1.4rem;
+    font-size: 1rem;
     outline: none;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }

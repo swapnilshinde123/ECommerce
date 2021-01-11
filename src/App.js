@@ -1,11 +1,13 @@
 import React from 'react'
 import "./App.css";
-import Form from "../src/Forms/index";
+import Form from "./Forms/Index";
+import Signup from "./Forms/Signup"
 
 function App() {
   return (
     <div>
-       <Form/>
+       {/* <Form/> */}
+       <Signup/>
     </div>
   )
 }
